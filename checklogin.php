@@ -36,11 +36,11 @@
 			throw new Exception("Error");
 			header("location:error_index.php");
 		case 1:
-			//echo "Вие сте студент!";					
+			//echo "студент!";					
 			header("Location: student/index.php?id=$user_id");
 			break;
 		case 2:
-			//echo "Вие сте учител!";						
+			//echo "учител!";						
 			header("location:teacher/index.php");
 			break;
 		case 3:
@@ -48,7 +48,7 @@
 			header("location:admin/index.php?id=$user_id");
 			break;
 		case 4:
-			echo "Ваня е тук!";					
+			echo "user: Root!";					
 			header("location:root/index.php");
 			break;
 
